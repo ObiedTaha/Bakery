@@ -1,0 +1,376 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.clr
+{
+    clear: both;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+.item
+{
+    width: 40px;
+    height: 80px;
+    background-color: rgb(221, 213, 213);
+    position: fixed;
+    top: 250px;
+    right: 0;
+    border-radius: 4px;
+}
+.navbar
+{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top:0px;
+    width: 100%;
+    z-index: 20;
+}
+.home .navbar .nav-img
+{
+    float: left;
+}
+.nav-img img
+{
+    width: 200px;
+   
+}
+.home .navbar .nav-links
+{
+    float: right;
+}
+.home .navbar .nav-links ul
+{
+    list-style-type: none;
+
+}
+.home .navbar .nav-links li
+{
+    float: left;
+    padding: 10px 20px;
+}
+.home .navbar .nav-links li a
+{
+    color: #fff;
+    text-decoration:none;
+}
+body
+{
+    font-family: 'Dancing Script', cursive;
+}
+.home
+{
+    height: 100vh;
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+}
+
+.home .caption
+{
+    text-align: center;
+    color: #fff;
+}
+.home  .caption h1
+{
+    margin: 80px 0;
+    font-size: 76px;
+}
+.home  .caption h5, p
+{
+    font-size: 20px;
+}
+.home  .caption p
+{
+    box-sizing: border-box;
+    padding: 30px ;
+}
+.caption .btn1 , .btn2
+{
+    background-color: transparent;
+    border:2px solid transparent;
+    padding:15px 28px;
+    color: #fff;
+}
+.caption .btn1
+{
+    background-color: #8e7754;
+}
+.caption .btn2
+{
+border: solid  #fff ;
+}
+.info-bakery
+{
+    padding: 80px;
+}
+.info-bakery .info-bakery-img
+{
+    width: 40%;
+    float: left;
+    padding-right: 100px ;
+    box-sizing: border-box;
+}
+.info-bakery-img img
+{
+    width: 100%;
+}
+.info-bakery .info-bakery-text
+{
+    width: 60%;
+    float: left;
+    padding:60px;
+    box-sizing: border-box;
+}
+.img-icons
+{
+    margin-top: 4px;
+}
+.icons span
+{
+    margin-top: 5px;
+}
+.info-bakery .info-bakery-text .para
+{
+    margin: 50px 0;
+    font-size: 22px;
+   
+}
+.info-bakery .info-bakery-text h2
+{
+    font-size: 28px;
+}
+.location
+{
+    background-color: #f8f8f8;
+    padding: 60px;
+}
+.location .about-location
+{
+    width: 60%;
+    box-sizing: border-box;
+    float: left;
+}
+.location .about-location .paragraph
+{
+    margin: 50px 0;
+}
+.location-img 
+{
+    float: left;
+    width: 40%;
+    margin-top:90px ;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.location-img img
+{
+    width: 100%;
+}
+.baking
+{
+    text-align: center;
+} 
+.baking p
+{
+    margin:40px 0;
+}
+.baking h2
+{
+    font-size: 50px;
+}
+.baking .baking-backage
+{
+    width: 33.33%;
+    float: left;
+    padding: 0 20px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+.baking .baking-backage img 
+{
+    width: 100%;
+}
+.baking .baking-backage p
+{
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.baking .baking-backage h3
+{
+    font-size: 23px;
+}
+.map
+{
+    background-color: #f8f8f8;
+
+}
+.map .map-info
+{
+    width: 50%;
+    float: left;
+}
+.map .map-info .fpara
+{
+    padding: 20px;
+    box-sizing: border-box;
+}
+.map-frame
+{
+    width: 50%;
+    float: left;
+}
+.last-session
+{
+    background-color:#403d38;
+    box-sizing: border-box;
+    padding: 20px ;
+    line-height:40px;
+}
+.last-session .part4 .icons .i-img , .p-img
+{
+    float: left;
+}
+.last-session .part1,.part2,.part3,.part4
+{
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding:30px 20px;
+    color: #969696;
+}
+.last-session .part1 p
+{
+    margin: 15px 0;
+}
+.last-session  p
+{
+    font-size: 15px;
+}
+.last-session  h4
+{
+    color: #fff;
+    font-size: 23px;
+}
+.last-session .part4
+{
+    background-image: url(images/contact-details-map.png);
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    
+}
+.copy-right 
+{
+    padding: 70px 0 40px 0 ;
+    background-color: #353330;
+    text-align: center;
+    
+}
+.copy-right p
+{
+    margin: 60px;
+    color: #747270;
+}
+.copy-right button
+{
+    background-color: transparent;
+    padding: 15px;
+    border: solid 1px #8c8a86 ;
+    border-radius: 50%;
+    cursor:hand;
+}
+.copy-right a
+{
+    width: 8px;
+    height:8px;
+    text-decoration: none;
+    background-color:#8c8a86;
+}
+@media screen and (max-width:814px) 
+{
+    
+    .info-bakery .info-bakery-img
+    {
+        width: 100%;
+    }
+    .info-bakery .info-bakery-text
+    {
+        width: 100%;
+    }
+    .info-bakery .info-bakery-text h2
+    {
+        font-size: 40px;
+    }
+    .location .about-location
+    {
+        width: 100%;
+    }
+    .location-img
+    {
+        width: 100%;
+    }
+    .baking .baking-backage
+    {
+        width: 100%;
+    }
+    .map .map-info
+    {
+        width: 100%;
+    }
+    .map-frame
+    {
+        width: 100%;
+    }
+    .last-session .part1 ,.part2,.part3,.part4
+    {
+        width: 100%;
+    }
+}
+@media screen and (min-width:815px) and (max-width:1248px) 
+{
+    
+    .info-bakery .info-bakery-img
+    {
+        width: 50%;
+    }
+    .info-bakery .info-bakery-text
+    {
+        width: 50%;
+    }
+    .info-bakery .info-bakery-text h2
+    {
+        font-size: 18px;
+    }
+    .location .about-location
+    {
+        width: 50%;
+    }
+    .location-img
+    {
+        width: 50%;
+    }
+    .baking .baking-backage
+    {
+        width: 50%;
+    }
+    .map .map-info
+    {
+        width: 50%;
+    }
+    .map-frame
+    {
+        width: 50%;
+    }
+    .last-session .part1 ,.part2,.part3,.part4
+    {
+        width: 33.33%;
+    }
+}
